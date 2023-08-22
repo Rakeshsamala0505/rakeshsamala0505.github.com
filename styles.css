@@ -1,0 +1,319 @@
+body {
+    font-family: "Barlow Condensed", sans-serif;
+    color: #242424;
+    width: 100%;
+    background-color: rgba(245, 233, 233, 0.751);
+    text-align: center;
+    font-size: 1.4rem;
+}
+.navbar {
+    background-color: #f3340a;
+    max-height: 100%;
+}
+.navbar-brand {
+    display:flex;
+    padding: 0.5rem;
+    flex-flow:column;
+    padding-top: 170px;
+    padding-bottom: 195px;
+}
+.list-inline{
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    list-style: none;
+    display:contents;
+}
+
+footer{
+display: none;
+}
+.img-fluid  {
+    max-width: 12rem;
+    max-height: 12rem;
+    border: 0.3rem solid #1873cde0;
+    border-radius: 100%;
+}
+.mobile-img{
+    max-width: 12rem;
+    max-height: 12rem;
+    border: 0.3rem solid #159be2e0;
+    border-radius: 100%;
+}
+.menu-bar .fa-solid{
+    width: 25px;
+    cursor: pointer;
+    display: none;
+}
+#sideNav {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 18rem;
+    height: 100%;
+    place-content: center;
+}
+.resume-section {
+    padding-top: 2rem !important;    
+}
+h1,
+.mobile-name {
+    font-family: "Just Another Hand", cursive;
+    font-size: 4.5rem;
+    letter-spacing: 0.1rem;
+}
+.rakesh{
+    display: none;
+}
+h2,
+h4,
+h6,
+#sideNav {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+}
+.tt-1{
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+}
+.content {
+    padding-left: 300px;
+    border: radius 5px;
+}
+.contact-form {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.list-social-icons{
+    padding-left: 0px;
+    padding-right: 19px;
+    padding-top: 234px;
+    display: flex;
+}
+.list-social-icons a{
+    margin-left: 24px;
+}
+.form-group {
+    width: 50%;
+    padding: 0;
+   
+}
+.btn {
+    font-weight: 700;
+    letter-spacing: 0.1rem;
+    color: rgb(235, 227, 227);
+    width: 50%;
+    border: none;
+}
+.progress-bar,
+.btn {
+background-color: #1873cde0;
+}
+.card{
+    border: none;   
+}
+a{
+    color: #1873cde0;
+}
+.mobile-img{
+    height: 150px;
+    width: 150px;
+}
+.rr{ 
+    position:relative; left: 170px; 
+    padding-top: 0px;
+    }
+    .row {
+padding-top: 35px;
+    }
+#skill-bars{
+    padding-top: 20px;
+}
+@media only screen and (max-width:768px){
+    body {
+        font-family: "Barlow Condensed", sans-serif;
+        color: #242424;
+        width: 100%;
+        background-color: rgba(245, 233, 233, 0.751);
+        text-align: center;
+        font-size: 1.4rem;
+    }
+    .navbar {
+        background-color: #352c2a;
+        max-height: 10%;
+    }
+    #sideNav {
+        width: 100%;
+        height: 130px;
+    }
+    .navbar-brand {
+        display:-moz-box;
+        padding: 0.5rem;
+        flex-flow:column;
+    }
+    .menu-bar .fa-solid{
+        size: 30px;
+        padding-left: 300px;
+        padding-right: 200px;
+        padding-top: 0px;
+        display: block;
+    }
+    .rakesh{
+        
+        left: 50px;
+        padding-right: 118px;
+        top: 26px;
+        position: absolute;
+        bottom: 24px;
+        display: initial;
+        font-size: 4.5rem;
+        font-family: 'Just Another Hand';
+    }
+    .img-fluid  {
+        max-width: 41rem;
+        max-height: 12rem;
+        border: 0.2rem solid #1873cde0;
+        border-radius: 100%;
+        display: none;
+    }
+    .navbar-brand .menu-bar{
+        padding-top: 10px;
+        padding-bottom: 91px;
+        padding-left: 2230px;
+        padding-right: 10px;
+        font-size: 5.25rem;
+
+    }
+   
+    .navbar-brand .mb{
+        padding-top: 189px;
+        padding-bottom: 100px;
+        padding-left: 0px;
+        padding-right: 1089px;
+       
+    }
+    .aa ul{
+       width: 100%;
+       background: #352c2a;
+       position: absolute;
+       top: 125px;
+       right: 0;
+       align-items: right;
+       z-index: 2;
+
+    }
+    .aa ul li{
+      display: flex;
+      margin: 10px;
+      padding-left: 50px;
+      margin-bottom: 10px;
+      text-transform: uppercase;
+      font-size: 46px;
+    }
+    .aa ul li a {
+        color: #faf8f7;
+    }
+    
+    .mobile-img{
+        max-width: 380rem;
+        max-height: 380rem;
+        border: 0.3rem solid #159be2e0;
+        border-radius: 100%;
+        height: 340px;
+        width: 340px;
+        margin-left: 43px;
+    }
+    .resume-section {
+        padding-top: 10rem !important;    
+        width: 100%;
+        margin-left: 135px;
+       
+    }
+    h2{
+        padding-left: 10px;
+    }
+    .content {
+        width: 1620px;
+        height: auto;
+        margin: auto;
+        position: relative;
+        font-size: 51px;
+        padding-left: 28px;
+        padding-right: 28px;
+    }
+    .content .par{
+     padding-left: 10px;
+     padding-bottom: 20px;
+     letter-spacing: 1.2px;
+     line-height: 30px;
+     font-size: 100px;
+    }
+    .content h1{
+        font-size: 100px;
+        padding-left: 10px;
+        margin-top: 9%;
+        letter-spacing: 2px;
+    }
+    .tt-1{
+        font-family: "Poppins", sans-serif;
+        font-weight: 700;
+        font-size: 40px
+    }
+    .card-title{
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        font-size: 35px
+    }
+    .rr,.text-left{ 
+        position:relative; 
+        left: 265px; 
+        bottom: 23px;
+        }
+    .text-left{
+        left: 30px;
+       top: 5px;
+    }
+    #skill-bars{
+        padding-top: 40px;
+    }
+      .row{
+        width: 486px;
+        display: flex;
+        flex-wrap: initial;
+        padding-top: 0px;
+      }
+      .edu-icons {
+        font-size: 20px;
+      }
+      h2{
+        
+            font-family: "Poppins", sans-serif;
+            font-weight: 700;
+            font-size: 60px;
+        
+      }
+      .mb-4 {
+        margin-bottom: 7.5rem!important;
+    }
+    .navbar-brand .bb{
+        display: none;
+    }
+    footer{
+        display: block;
+        font-size: 65px;
+        padding-left: 490px;
+        padding-bottom: 40px;
+    }
+    footer .list-social-icons{
+        padding-top: 10px;
+        padding-left: 10px;
+        ;
+    }
+    #menuList{
+        overflow: hidden;
+        transition: 0.5s;
+    }
+  
+}
