@@ -30,7 +30,7 @@ display: none;
 }
 .img-fluid  {
     max-width: 12rem;
-    max-height: 12rem;
+    max-height: 11rem;
     border: 0.3rem solid #1873cde0;
     border-radius: 100%;
 }
