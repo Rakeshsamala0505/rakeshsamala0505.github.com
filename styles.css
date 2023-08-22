@@ -315,5 +315,10 @@ padding-top: 35px;
         overflow: hidden;
         transition: 0.5s;
     }
+    .rt{
+        padding-left: 300px;
+
+
+    }
   
 }
