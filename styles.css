@@ -710,3 +710,22 @@ textarea {
       width: 200px;
       border-radius: 240px;
     }
+    
+
+    .btn {
+      text-decoration: none;
+      color: #fff;
+      background-color: #007bff;
+      padding: 10px 20px;
+      border-radius: 5px;
+      display: inline-block;
+      margin-bottom: 10px; /* Add margin at the bottom of each button */
+  }
+  
+  /* Media query for smaller screens */
+  @media only screen and (max-width: 768px) {
+      /* Apply margin to the resume button */
+      .resume-btn {
+          margin-right: 10px; /* Add margin to the right of the resume button */
+      }
+  }
