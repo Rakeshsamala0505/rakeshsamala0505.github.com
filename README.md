@@ -1,6 +1,7 @@
-# My Portfolio Website
+# My Portfolio Website (https://rakeshsamala0505.github.io/)
+
 This repository contains the source code and files for my personal portfolio website. The website is built using HTML, CSS, and JavaScript.
-## Features
+# Features
 Home: Introduces myself and provides a brief overview of my skills and interests.
 About: Details my professional background, education, and relevant experience.
 Projects: Showcases the projects I have worked on, including descriptions, screenshots, and links to live demos or repositories.
