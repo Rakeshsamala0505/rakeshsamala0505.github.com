@@ -546,17 +546,24 @@ textarea {
     @media only screen and (max-width: 37.5em) {
       .header__links {
         display: none; } }
-  .header__link {
-    padding: 2.2rem 3rem;
-    display: inline-block;
-    font-size: 1.6rem;
-    color: #333;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    font-weight: 700;
-    transition: color .3s; }
-    .header__link:hover {
-      color: #0062b9; }
+        .header__link {
+          padding: 0.5rem 3rem;
+          display: inline-block;
+          font-size: 1.6rem;
+          color: #333;
+          text-decoration: none;
+          text-transform: uppercase;
+          letter-spacing: 1px;
+          font-weight: 700;
+          transition: color .3s, transform 0.3s, background-color 0.3s;
+          box-sizing: border-box; /* Ensures padding changes don’t affect element size */
+      }
+      
+      .header__link:hover {
+          color: #ffffff;
+          background-color: #f25c05cc;
+          transform: scale(1.05); /* Slight zoom effect instead of padding change */
+      }
     @media only screen and (max-width: 56.25em) {
       .header__link {
         padding: 3rem 1.8rem;
@@ -710,6 +717,10 @@ textarea {
       margin-right: auto;
       width: 200px;
       border-radius: 240px;
+      transition: transform 0.3s ease-in-out;
+    }
+    .rounded:hover{
+      transform: scale(1.1);
     }
     
 
